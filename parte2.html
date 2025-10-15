@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LunaTV Plus — Tudo sobre</title>
+<link rel="icon" type="image/png" href="https://lunatv.online/favicon.png">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Poppins',sans-serif;
+  background-color:#000;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+/* HEADER */
+header{
+  width:100%;
+  background:#000;
+  padding:20px 0;
+  text-align:center;
+  border-bottom:1px solid rgba(255,255,255,.1);
+}
+header img{
+  height:60px;
+}
+
+/* HERO VIDEO */
+.hero{
+  width:100%;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  text-align:center;
+  padding:60px 20px 30px;
+  background:radial-gradient(circle at center,#101010 0%,#000 90%);
+}
+.hero h1{
+  font-size:42px;
+  font-weight:800;
+  color:#fff;
+  margin-bottom:16px;
+  text-shadow:0 0 18px rgba(255,255,255,0.4);
+}
+.hero p{
+  max-width:780px;
+  color:#ddd;
+  font-size:18px;
+  margin-bottom:24px;
+}
+.hero iframe{
+  width:90%;
+  max-width:780px;
+  height:420px;
+  border-radius:16px;
+  box-shadow:0 0 24px rgba(255,255,255,.2);
+  border:none;
+}
+
+/* SECTION BASE */
+section{
+  padding:70px 20px;
+  text-align:center;
+}
+section h2{
+  font-size:36px;
+  color:#fff;
+  margin-bottom:20px;
+  text-shadow:0 0 12px rgba(255,255,255,0.3);
+}
+section p{
+  max-width:900px;
+  margin:0 auto;
+  color:#d8d8d8;
+  font-size:17px;
+  line-height:1.6;
+}
+
+/* MARCAS */
+.brands{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  gap:30px;
+  margin-top:50px;
+}
+.brands img{
+  height:40px;
+  opacity:.9;
+  filter:drop-shadow(0 0 6px rgba(255,255,255,.25));
+  transition:.3s;
+}
+.brands img:hover{transform:scale(1.1);opacity:1}
+
+/* BLOCO LUNATV É PARA VOCÊ */
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+  margin-top:50px;
+}
+.feature{
+  background:rgba(255,255,255,.06);
+  border-radius:16px;
+  padding:30px 25px;
+  border:1px solid rgba(255,255,255,.1);
+  box-shadow:0 0 25px rgba(255,255,255,.05);
+  transition:.3s;
+}
+.feature:hover{transform:translateY(-5px);box-shadow:0 0 35px rgba(255,255,255,.15);}
+.feature img{
+  width:70px;height:70px;margin-bottom:18px;
+}
+.feature h3{
+  color:#fff;font-size:22px;margin-bottom:10px;
+}
+.feature p{
+  color:#ccc;font-size:15px;line-height:1.6;
+}
+
+/* CARROSSEL DE FILMES */
+.carousel{
+  overflow:hidden;
+  position:relative;
+  width:100%;
+  margin-top:60px;
+}
+.slider{
+  display:flex;
+  animation:scroll 40s linear infinite;
+}
+.slider img{
+  width:220px;
+  height:320px;
+  margin:0 10px;
+  border-radius:12px;
+  box-shadow:0 0 12px rgba(255,255,255,.15);
+  object-fit:cover;
+}
+@keyframes scroll{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-50%);}
+}
+
+/* FOOTER */
+footer{
+  background:#080808;
+  color:#aaa;
+  text-align:center;
+  padding:40px 20px;
+  border-top:1px solid rgba(255,255,255,.08);
+  font-size:14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://lunatv.online/assets/img/logo.png" alt="LunaTV Logo">
+</header>
+
+<section class="hero">
+  <h1>TUDO SOBRE A LUNATV PLUS</h1>
+  <p>Conheça o melhor serviço de entretenimento com filmes, séries e canais 24h de alta qualidade.</p>
+  <iframe src="https://www.youtube.com/embed/xuVJ0tWkhrY" allowfullscreen></iframe>
+</section>
+
+<section>
+  <h2>O que é a LunaTV Plus?</h2>
+  <p>A LunaTV é uma plataforma completa de entretenimento que reúne filmes, séries, desenhos e canais 24 horas em um só lugar.  
+  Tudo com qualidade HD e estabilidade de primeira. Ideal pra quem quer assistir sem interrupções, sem travamentos e com uma experiência fluida em qualquer dispositivo.</p>
+</section>
+
+<section>
+  <h2>Disponível nas principais plataformas</h2>
+  <div class="brands">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" alt="Netflix">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Prime_Video_logo.svg" alt="Prime Video">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" alt="Disney+">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/HBO_Max_Logo.svg" alt="HBO Max">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Paramount_Plus.svg" alt="Paramount+">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Apple_TV%2B_logo.svg" alt="Apple TV+">
+  </div>
+<section>
+  <h2>A LunaTV é para você que...</h2>
+  <div class="features">
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" alt="Amante de filmes">
+      <h3>É amante de filmes e séries</h3>
+      <p>Quer assistir sem limites, sem travamentos e com qualidade máxima. Ideal pra quem busca conforto e entretenimento completo.</p>
+    </div>
+
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/1688/1688400.png" alt="Família conectada">
+      <h3>Quer reunir toda a família</h3>
+      <p>Com canais 24 horas, filmes e desenhos, a diversão é garantida pra todas as idades — tudo em um só lugar.</p>
+    </div>
+
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="Alta qualidade">
+      <h3>Valoriza qualidade e estabilidade</h3>
+      <p>Transmissão em HD e 4K com estabilidade impressionante, pra aproveitar o máximo da sua conexão sem travar.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Filmes, séries e muito mais</h2>
+  <p>Veja alguns dos títulos disponíveis na plataforma LunaTV. Centenas de opções que atualizam constantemente, com novos conteúdos toda semana.</p>
+  <div class="carousel">
+    <div class="slider">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071830832287786/spider-mannowayhome_lob_crd_03.png" alt="Homem-Aranha: Sem Volta Pra Casa">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071831361032334/250px-Fast_X_cartaz.png" alt="Velozes e Furiosos 10">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071831906025472/122582.png" alt="Guardiões da Galáxia">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071832707399821/250px-Oppenheimer_poster.png" alt="Oppenheimer">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071833139150969/Matrix_reloaded_.png" alt="Matrix Reloaded">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071833671958668/250px-Interstellar_Filme.png" alt="Interestelar">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071834448035850/content.png" alt="Filme Destaque">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071834821333002/content.png" alt="Filme Destaque 2">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071835236302889/content.png" alt="Filme Destaque 3">
+      <!-- duplicar para rolagem contínua -->
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071830832287786/spider-mannowayhome_lob_crd_03.png" alt="Homem-Aranha: Sem Volta Pra Casa">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071831361032334/250px-Fast_X_cartaz.png" alt="Velozes e Furiosos 10">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071831906025472/122582.png" alt="Guardiões da Galáxia">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071832707399821/250px-Oppenheimer_poster.png" alt="Oppenheimer">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071833139150969/Matrix_reloaded_.png" alt="Matrix Reloaded">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071833671958668/250px-Interstellar_Filme.png" alt="Interestelar">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071834448035850/content.png" alt="Filme Destaque">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071834821333002/content.png" alt="Filme Destaque 2">
+      <img src="https://cdn.discordapp.com/attachments/1282785741579223152/1428071835236302889/content.png" alt="Filme Destaque 3">
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  © 2025 LunaTV Plus — Todos os direitos reservados.  
+  <br>Este site é apenas informativo e não realiza vendas.
+</footer>
+
+</body>
+</html>
+
